@@ -30,8 +30,25 @@ namespace RealEstateCatalog.Services
         }
 
         public async Task GenerateDataAsync()
-        {
-            await Task.FromResult(default(object));
+        {            
+            DocumentClient client = new DocumentClient(new Uri(CosmosSettings.EndpointUrl), CosmosSettings.AuthorizationKey);
+
+            Database databaseTemplate = new Database { Id = CosmosSettings.DatabaseId };
+            Database database = await client.CreateDatabaseIfNotExistsAsync(databaseTemplate);
+            
+            DocumentCollection collectionTemplate = new DocumentCollection { Id = CosmosSettings.ContainerId };
+            RequestOptions requestOptions = new RequestOptions { OfferThroughput = 400 };
+            DocumentCollection collection = await client.CreateDocumentCollectionIfNotExistsAsync(database.SelfLink, collectionTemplate, requestOptions);
+            
+            IEnumerable<Home> homes = GetHomes();
+
+            foreach (Home home in homes)
+            {
+                var response = await client.UpsertDocumentAsync(
+                    collection.SelfLink,
+                    home
+                );
+            }
         }
 
         private IEnumerable<Home> GetHomes()

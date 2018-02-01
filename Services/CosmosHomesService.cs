@@ -30,17 +30,50 @@ namespace RealEstateCatalog.Services
 
         public async Task<IList<Home>> GetHomesAsync()
         {
-            return await Task.FromResult(default(IList<Home>));
+            List<Home> homes = new List<Home>();
+
+            string continuationToken = String.Empty;            
+            do
+            {
+                FeedResponse<dynamic> feedResponse = await client.ReadDocumentFeedAsync(collection.DocumentsLink, new FeedOptions { MaxItemCount = 10, RequestContinuation = continuationToken });
+                foreach (Home home in feedResponse)
+                {
+                    homes.Add(home);
+                }
+                continuationToken = feedResponse.ResponseContinuation;
+            }
+            while (!String.IsNullOrEmpty(continuationToken));
+            
+            return homes;
         }
 
         public async Task<IList<Home>> GetHomesForRealtorAsync(string source)
-        {
-            return await Task.FromResult(default(IList<Home>));
+        {            
+            DocumentClient client = new DocumentClient(new Uri(CosmosSettings.EndpointUrl), CosmosSettings.AuthorizationKey);
+            Database database = await client.CreateDatabaseIfNotExistsAsync(new Database { Id = CosmosSettings.DatabaseId });
+            DocumentCollection collection = await client.CreateDocumentCollectionIfNotExistsAsync(database.SelfLink, new DocumentCollection { Id = CosmosSettings.ContainerId }, new RequestOptions { OfferThroughput = 400 });
+            
+            var documentQuery = client.CreateDocumentQuery<Home>(collection.SelfLink)
+                .Where(home => home.Realtor == source)
+                .AsDocumentQuery<Home>();
+
+            List<Home> homes = new List<Home>();
+            while (documentQuery.HasMoreResults)
+            {
+                homes.AddRange(await documentQuery.ExecuteNextAsync<Home>());
+            }
+            return homes;
         }
 
         public async Task<Home> GetHomeAsync(string documentId)
-        {
-            return await Task.FromResult(default(Home));
+        {            
+            DocumentClient client = new DocumentClient(new Uri(CosmosSettings.EndpointUrl), CosmosSettings.AuthorizationKey);
+            Database database = await client.CreateDatabaseIfNotExistsAsync(new Database { Id = CosmosSettings.DatabaseId });
+            DocumentCollection collection = await client.CreateDocumentCollectionIfNotExistsAsync(database.SelfLink, new DocumentCollection { Id = CosmosSettings.ContainerId }, new RequestOptions { OfferThroughput = 400 });
+            
+            return await client.ReadDocumentAsync<Home>(
+                UriFactory.CreateDocumentUri(CosmosSettings.DatabaseId, CosmosSettings.ContainerId, documentId)
+            );
         }
     }
 }
