@@ -1,0 +1,727 @@
+[
+    {
+        "id": "9382661",
+        "address": "2108 1st Avenue West 287, Seattle, WA 98119",
+        "bedroomCount": 4,
+        "bathroomCount": 2,
+        "description": "This is a bachelor apartment and is move-in ready.  This home provides coastal views located close to schools and features a sauna, beautiful bedroom floors and a guest house.",
+        "squareFeet": 5184,
+        "daysOnMarket": 174,
+        "status": "active",
+        "realtor": "Phillips Homes",
+        "price": 1316736,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd4bt2apt.jpg",
+        "tags": [
+            "bachelor apartment",
+            "move-in ready",
+            "coastal views",
+            "schools",
+            "sauna",
+            "beautiful bedroom floors",
+            "guest house"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.358,
+                47.6376
+            ]
+        }
+    },
+    {
+        "id": "9385194",
+        "address": "16441 3rd Avenue Southwest , Normandy Park, WA 98166",
+        "bedroomCount": 1,
+        "bathroomCount": 1,
+        "description": "This is a two-story residence and is brand new.  Enjoy lake front property located in a dead end street and features a home office, crown mouldings and a wet bar.",
+        "squareFeet": 648,
+        "daysOnMarket": 111,
+        "status": "sold",
+        "realtor": "Phillips Homes",
+        "price": 132192,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd1bt1home.jpg",
+        "tags": [
+            "two-story residence",
+            "brand new",
+            "lake front property",
+            "dead end street",
+            "home office",
+            "crown mouldings",
+            "wet bar"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.338,
+                47.454
+            ]
+        }
+    },
+    {
+        "id": "9386039",
+        "address": "1418 166th Avenue Southeast 406, Bellevue, WA 98008",
+        "bedroomCount": 1,
+        "bathroomCount": 1,
+        "description": "This is a flat and is a dream home.  This property has great views located in a no through road and features an attached garage, a formal dining room and a guest house.",
+        "squareFeet": 648,
+        "daysOnMarket": 72,
+        "status": "pending",
+        "realtor": "Phillips Homes",
+        "price": 170424,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd1bt1apt.jpg",
+        "tags": [
+            "flat",
+            "dream home",
+            "great views",
+            "no through road",
+            "attached garage",
+            "formal dining room",
+            "guest house"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.119,
+                47.5976
+            ]
+        }
+    },
+    {
+        "id": "9386570",
+        "address": "26011 222nd Court Southeast 0, Maple Valley, WA 98038",
+        "bedroomCount": 3,
+        "bathroomCount": 2,
+        "description": "This is a apartment residence and is a great starter home.  This property has great views located in a no through road and features a sauna, wood floors and a wet bar.",
+        "squareFeet": 3888,
+        "daysOnMarket": 285,
+        "status": "sold",
+        "realtor": "Phillips Homes",
+        "price": 1123632,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd3bt2apt.jpg",
+        "tags": [
+            "apartment residence",
+            "great starter home",
+            "great views",
+            "no through road",
+            "sauna",
+            "wood floors",
+            "wet bar"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.045,
+                47.3684
+            ]
+        }
+    },
+    {
+        "id": "9383598",
+        "address": "4504 Northeast Tulane Place 448, Seattle, WA 98105",
+        "bedroomCount": 1,
+        "bathroomCount": 1,
+        "description": "This is a bachelor apartment and is priced to sell.  This property has ocean views located near a small lake and features a heated pool, crown mouldings and lots of storage.",
+        "squareFeet": 648,
+        "daysOnMarket": 192,
+        "status": "active",
+        "realtor": "Phillips Homes",
+        "price": 141264,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd1bt1apt.jpg",
+        "tags": [
+            "bachelor apartment",
+            "priced to sell",
+            "ocean views",
+            "small lake",
+            "heated pool",
+            "crown mouldings",
+            "lots of storage"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.279,
+                47.6703
+            ]
+        }
+    },
+    {
+        "id": "9382997",
+        "address": "5215 25th Avenue South , Seattle, WA 98108",
+        "bedroomCount": 2,
+        "bathroomCount": 2,
+        "description": "This is a duplex residence but has a small mouse problem.This home provides lakefront property located within walking distance of a beach and features a wood burning fireplace , french doors throughout and a large walk in closet.",
+        "squareFeet": 2592,
+        "daysOnMarket": 213,
+        "status": "pending",
+        "realtor": "Berube Realtors",
+        "price": 754272,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd2bt2home.jpg",
+        "tags": [
+            "duplex residence",
+            "mouse problem",
+            "lakefront property",
+            "walking distance of beach",
+            "wood burning fireplace",
+            "french doors throughout",
+            "large walk in closet"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.301,
+                47.5556
+            ]
+        }
+    },
+    {
+        "id": "9383974",
+        "address": "4127 48th Avenue Southwest 623, Seattle, WA 98116",
+        "bedroomCount": 3,
+        "bathroomCount": 3,
+        "description": "This is a condo but has a small mouse problem.This home provides coastal views located close to shopping and features high end kitchen appliances, crown mouldings and a guest house.",
+        "squareFeet": 5832,
+        "daysOnMarket": 192,
+        "status": "active",
+        "realtor": "Berube Realtors",
+        "price": 1586304,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd3bt3apt.jpg",
+        "tags": [
+            "condo",
+            "mouse problem",
+            "coastal views",
+            "shopping",
+            "high end kitchen appliances",
+            "crown mouldings",
+            "guest house"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.394,
+                47.5658
+            ]
+        }
+    },
+    {
+        "id": "9385271",
+        "address": "505 South 18th Street , Renton, WA 98055",
+        "bedroomCount": 2,
+        "bathroomCount": 2,
+        "description": "This is a multi-story residence and is freshly painted.  This home provides a large lot located in a dead end street and features a gas log fireplace, a wall of windows and a large laundry room.",
+        "squareFeet": 2592,
+        "daysOnMarket": 297,
+        "status": "active",
+        "realtor": "Berube Realtors",
+        "price": 653184,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd2bt2home.jpg",
+        "tags": [
+            "multi-story residence",
+            "freshly painted",
+            "large lot",
+            "dead end street",
+            "gas log fireplace",
+            "wall of windows",
+            "large laundry room"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.211,
+                47.4635
+            ]
+        }
+    },
+    {
+        "id": "9382388",
+        "address": "23008 16th Avenue South 539, Des Moines, WA 98198",
+        "bedroomCount": 2,
+        "bathroomCount": 2,
+        "description": "This is a flat and is perfect for entertaining.  Enjoy oceanfrontage located in a no through road and features a detached garage, crown mouldings and granite countertops.",
+        "squareFeet": 2592,
+        "daysOnMarket": 180,
+        "status": "active",
+        "realtor": "Berube Realtors",
+        "price": 632448,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd2bt2apt.jpg",
+        "tags": [
+            "flat",
+            "entertaining",
+            "oceanfrontage",
+            "no through road",
+            "detached garage",
+            "crown mouldings",
+            "granite countertops"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.313,
+                47.3954
+            ]
+        }
+    },
+    {
+        "id": "9383857",
+        "address": "0 20th Place Northeast , Shoreline, WA 98155",
+        "bedroomCount": 2,
+        "bathroomCount": 2,
+        "description": "This is a townhouse and is priced to sell.  Enjoy lake front property located in a culs-de-sac and features viking appliances, a wall of windows and a huge bonus room.",
+        "squareFeet": 2592,
+        "daysOnMarket": 117,
+        "status": "sold",
+        "realtor": "White Realtors",
+        "price": 583200,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd2bt2home.jpg",
+        "tags": [
+            "townhouse",
+            "priced to sell",
+            "lake front property",
+            "culs-de-sac",
+            "viking appliances",
+            "wall of windows",
+            "huge bonus room"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.307,
+                47.7771
+            ]
+        }
+    },
+    {
+        "id": "9383871",
+        "address": "1213 South 257th Place 651, Des Moines, WA 98198",
+        "bedroomCount": 3,
+        "bathroomCount": 3,
+        "description": "This is a flatlet and is a great starter home.  Enjoy lake front property located in a cul-de-sac and features a wood burning fireplace , a formal dining room and a guest room.",
+        "squareFeet": 5832,
+        "daysOnMarket": 33,
+        "status": "sold",
+        "realtor": "White Realtors",
+        "price": 1364688,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd3bt3apt.jpg",
+        "tags": [
+            "flatlet",
+            "great starter home",
+            "lake front property",
+            "cul-de-sac",
+            "wood burning fireplace",
+            "formal dining room",
+            "guest room"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.318,
+                47.3711
+            ]
+        }
+    },
+    {
+        "id": "9384590",
+        "address": "6314 45th Avenue Southwest 224, Seattle, WA 98136",
+        "bedroomCount": 1,
+        "bathroomCount": 1,
+        "description": "This is a apartment residence and is move in condition.  Enjoy water frontage located in a cul-de-sac and features a den, a generous backyard and vaulted ceilings.",
+        "squareFeet": 648,
+        "daysOnMarket": 96,
+        "status": "active",
+        "realtor": "White Realtors",
+        "price": 135432,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd1bt1apt.jpg",
+        "tags": [
+            "apartment residence",
+            "move in condition",
+            "water frontage",
+            "cul-de-sac",
+            "den",
+            "generous backyard",
+            "vaulted ceilings"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.39,
+                47.5462
+            ]
+        }
+    },
+    {
+        "id": "9382195",
+        "address": "834 Davis Place South 35, Seattle, WA 98144",
+        "bedroomCount": 1,
+        "bathroomCount": 1,
+        "description": "This is a condominium but has a small mouse problem.This home provides panoramic views located in a culs-de-sac and features an office, a formal dining room and a large laundry room.",
+        "squareFeet": 648,
+        "daysOnMarket": 138,
+        "status": "pending",
+        "realtor": "White Realtors",
+        "price": 138024,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd1bt1apt.jpg",
+        "tags": [
+            "condominium",
+            "mouse problem",
+            "panoramic views",
+            "culs-de-sac",
+            "office",
+            "formal dining room",
+            "large laundry room"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.308,
+                47.5949
+            ]
+        }
+    },
+    {
+        "id": "9385941",
+        "address": "4700 140th Avenue Northeast 462, Bellevue, WA 98005",
+        "bedroomCount": 1,
+        "bathroomCount": 1,
+        "description": "This is a apartment residence and is a dream home.  This home provides panoramic views located near a small lake and features a home office, a generous backyard and lots of storage.",
+        "squareFeet": 648,
+        "daysOnMarket": 165,
+        "status": "active",
+        "realtor": "Vachon Realtors",
+        "price": 176904,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd1bt1apt.jpg",
+        "tags": [
+            "apartment residence",
+            "dream home",
+            "panoramic views",
+            "small lake",
+            "home office",
+            "generous backyard",
+            "lots of storage"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.152,
+                47.6527
+            ]
+        }
+    },
+    {
+        "id": "9383313",
+        "address": "5215 16th Avenue Southwest 602, Seattle, WA 98106",
+        "bedroomCount": 1,
+        "bathroomCount": 1,
+        "description": "This is a bachelor apartment and is a short sale.  This property has mountain views located in a no through road and features a wood burning fireplace , wood floors and a huge bonus room.",
+        "squareFeet": 648,
+        "daysOnMarket": 0,
+        "status": "active",
+        "realtor": "Vachon Realtors",
+        "price": 135432,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd1bt1apt.jpg",
+        "tags": [
+            "bachelor apartment",
+            "short sale",
+            "mountain views",
+            "no through road",
+            "wood burning fireplace",
+            "wood floors",
+            "huge bonus room"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.355,
+                47.5556
+            ]
+        }
+    },
+    {
+        "id": "9384060",
+        "address": "9401 26th Avenue Southwest 476, Seattle, WA 98106",
+        "bedroomCount": 2,
+        "bathroomCount": 2,
+        "description": "This is a bachelor apartment and is a short sale.  This home provides lakefront property located near a small lake and features a wood burning fireplace , wood floors and a guest room.",
+        "squareFeet": 2592,
+        "daysOnMarket": 126,
+        "status": "pending",
+        "realtor": "Vachon Realtors",
+        "price": 580608,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd2bt2apt.jpg",
+        "tags": [
+            "bachelor apartment",
+            "short sale",
+            "lakefront property",
+            "small lake",
+            "wood burning fireplace",
+            "wood floors",
+            "guest room"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.366,
+                47.519
+            ]
+        }
+    },
+    {
+        "id": "9385373",
+        "address": "22115 99th Place South , Kent, WA 98031",
+        "bedroomCount": 1,
+        "bathroomCount": 1,
+        "description": "This is a tenement house and is well maintained.  This property has mountain views located in a cul-de-sac and features a den, heated towel racks and a guest room.",
+        "squareFeet": 648,
+        "daysOnMarket": 135,
+        "status": "active",
+        "realtor": "Vachon Realtors",
+        "price": 166536,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd1bt1home.jpg",
+        "tags": [
+            "tenement house",
+            "well maintained",
+            "mountain views",
+            "cul-de-sac",
+            "den",
+            "heated towel racks",
+            "guest room"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.209,
+                47.4039
+            ]
+        }
+    },
+    {
+        "id": "9386001",
+        "address": "13022 16th Avenue Southwest , Burien, WA 98146",
+        "bedroomCount": 2,
+        "bathroomCount": 2,
+        "description": "This is a duplex residence and is a beautiful home.  This home provides coastal views located in a no through road and features a den, french doors throughout and lots of storage.",
+        "squareFeet": 2592,
+        "daysOnMarket": 174,
+        "status": "active",
+        "realtor": "Charbonneau Homes",
+        "price": 518400,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd2bt2home.jpg",
+        "tags": [
+            "duplex residence",
+            "beautiful home",
+            "coastal views",
+            "no through road",
+            "den",
+            "french doors throughout",
+            "lots of storage"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.355,
+                47.4858
+            ]
+        }
+    },
+    {
+        "id": "9385513",
+        "address": "10717 Northeast 4th Street 553, Bellevue, WA 98004",
+        "bedroomCount": 5,
+        "bathroomCount": 4,
+        "description": "This is a flat and is a short sale.  This home provides a large lot located in a gated community and features top of the line appliances, a wall of windows and a wet bar.",
+        "squareFeet": 12960,
+        "daysOnMarket": 135,
+        "status": "active",
+        "realtor": "Charbonneau Homes",
+        "price": 3654720,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd5bt4apt.jpg",
+        "tags": [
+            "flat",
+            "short sale",
+            "large lot",
+            "gated community",
+            "top of the line appliances",
+            "wall of windows",
+            "wet bar"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.197,
+                47.6135
+            ]
+        }
+    },
+    {
+        "id": "9386556",
+        "address": "13809 1st Avenue South 329, Burien, WA 98168",
+        "bedroomCount": 1,
+        "bathroomCount": 1,
+        "description": "This is a condominium and is a dream home.  This home provides coastal views located in a no through road and features an attached garage, a garden and granite countertops.",
+        "squareFeet": 648,
+        "daysOnMarket": 180,
+        "status": "sold",
+        "realtor": "Charbonneau Homes",
+        "price": 164592,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd1bt1apt.jpg",
+        "tags": [
+            "condominium",
+            "dream home",
+            "coastal views",
+            "no through road",
+            "attached garage",
+            "garden",
+            "granite countertops"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.334,
+                47.4793
+            ]
+        }
+    },
+    {
+        "id": "9386943",
+        "address": "3010 142nd Place Northeast 294, Bellevue, WA 98007",
+        "bedroomCount": 4,
+        "bathroomCount": 3,
+        "description": "This is a flat and is brand new.  Enjoy lake front property located close to a river and features viking appliances, a formal dining room and a large laundry room.",
+        "squareFeet": 7776,
+        "daysOnMarket": 33,
+        "status": "active",
+        "realtor": "Charbonneau Homes",
+        "price": 1967328,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd4bt3apt.jpg",
+        "tags": [
+            "flat",
+            "brand new",
+            "lake front property",
+            "river",
+            "viking appliances",
+            "formal dining room",
+            "large laundry room"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.149,
+                47.6371
+            ]
+        }
+    },
+    {
+        "id": "9382260",
+        "address": "6905 Northeast 182nd Street , Kenmore, WA 98028",
+        "bedroomCount": 1,
+        "bathroomCount": 1,
+        "description": "This is a two-story residence and is a great starter home.  This property has lake access located close to a river and features sub-zero appliances, beautiful bedroom floors and granite countertops.",
+        "squareFeet": 648,
+        "daysOnMarket": 195,
+        "status": "pending",
+        "realtor": "Lachance Homes",
+        "price": 193752,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd1bt1home.jpg",
+        "tags": [
+            "two-story residence",
+            "great starter home",
+            "lake access",
+            "river",
+            "sub-zero appliances",
+            "beautiful bedroom floors",
+            "granite countertops"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.249,
+                47.7609
+            ]
+        }
+    },
+    {
+        "id": "9382529",
+        "address": "20705 Southeast 3rd Way , Sammamish, WA 98074",
+        "bedroomCount": 2,
+        "bathroomCount": 2,
+        "description": "This is a semi-detached house but has a small mouse problem.This home provides coastal views located close to parks and features a heated pool, french doors throughout and lots of storage.",
+        "squareFeet": 2592,
+        "daysOnMarket": 261,
+        "status": "sold",
+        "realtor": "Lachance Homes",
+        "price": 570240,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd2bt2home.jpg",
+        "tags": [
+            "semi-detached house",
+            "mouse problem",
+            "coastal views",
+            "parks",
+            "heated pool",
+            "french doors throughout",
+            "lots of storage"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.065,
+                47.6083
+            ]
+        }
+    },
+    {
+        "id": "9385526",
+        "address": "12013 Southeast 219th Court , Kent, WA 98031",
+        "bedroomCount": 5,
+        "bathroomCount": 1,
+        "description": "This is a tenement house and is perfect for entertaining.  This home provides panoramic views located close to parks and features high end kitchen appliances, beautiful bedroom floors and a guest house.",
+        "squareFeet": 3240,
+        "daysOnMarket": 267,
+        "status": "sold",
+        "realtor": "Lachance Homes",
+        "price": 683640,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd5bt1home.jpg",
+        "tags": [
+            "tenement house",
+            "entertaining",
+            "panoramic views",
+            "parks",
+            "high end kitchen appliances",
+            "beautiful bedroom floors",
+            "guest house"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.181,
+                47.4051
+            ]
+        }
+    },
+    {
+        "id": "9382568",
+        "address": "24242 26th Avenue South 252, Des Moines, WA 98198",
+        "bedroomCount": 5,
+        "bathroomCount": 1,
+        "description": "This is a apartment residence and is perfect for entertaining.  This home provides coastal views located in a culs-de-sac and features a steam room, beautiful bedroom floors and vaulted ceilings.",
+        "squareFeet": 3240,
+        "daysOnMarket": 90,
+        "status": "sold",
+        "realtor": "Lachance Homes",
+        "price": 719280,
+        "thumbnail": "https://searchdatasets.blob.core.windows.net/images/bd5bt1apt.jpg",
+        "tags": [
+            "apartment residence",
+            "entertaining",
+            "coastal views",
+            "culs-de-sac",
+            "steam room",
+            "beautiful bedroom floors",
+            "vaulted ceilings"
+        ],
+        "location": {
+            "type": "Point",
+            "coordinates": [
+                -122.3,
+                47.3834
+            ]
+        }
+    }
+]

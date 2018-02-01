@@ -1,0 +1,40 @@
+﻿@model IList<Home>
+<img class="card-img-top border border-dark border-top-0 border-left-0 border-right-0 rounded-0 rounded-bottom" src="~/images/header.jpg" data-toggle="tooltip" data-html="true" data-placement="bottom" title="Photo by <strong>MILKOVÍ</strong> on <em>Unsplash (http://unsplash.com)</em>">
+<main class="container">
+    <div class="card pt-5 border-0">
+        <div class="card-body">
+            <h3 class="display-3 card-title text-center">
+                Contoso Real Estate Group
+            </h3>
+            <p class="card-text lead text-center">
+                Finding the <strong>right</strong> realtor and <strong>right</strong> home for you.
+            </p>
+        </div>
+    </div>
+    <div class="card-columns mt-3">
+        @foreach (Home home in Model)
+        {
+            <div class="card">
+                <img class="card-img-top" src="@home.Thumbnail.AbsoluteUri" alt="@home.Address">
+                <div class="card-body">
+                    <h4 class="card-title">
+                        @home.Address
+                    </h4>
+                    <p class="card-text">
+                        @home.Description
+                    </p>
+                    <small class="d-flex justify-content-around">
+                        <a href="@Url.RouteUrl("SearchHomes", new { id = home.Realtor })" class="card-link">
+                            <i class="fa fa-black-tie" aria-hidden="true"></i>
+                            @home.Realtor
+                        </a>
+                        <a href="@Url.RouteUrl("GetHome", new { id = home.Id })" class="card-link">
+                            <i class="fa fa-info-circle" aria-hidden="true"></i>
+                            Details
+                        </a>
+                    </small>
+                </div>
+            </div>
+        }
+    </div>
+</main>

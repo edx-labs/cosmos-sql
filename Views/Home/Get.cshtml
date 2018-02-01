@@ -1,0 +1,44 @@
+﻿@model Home
+<div class="alert alert-dark d-flex justify-content-between py-3" role="alert">
+    <a href="@Url.RouteUrl("Home")" class="display-4 text-dark">
+        <i class="fa fa-list" aria-hidden="true"></i>
+    </a>
+    <h4 class="display-4">
+        @Model.Address
+    </h4>
+    <span class="display-4">&nbsp;</span>
+</div>
+<main class="container mt-4">
+    <div class="d-flex justify-content-around">
+        <div>
+            Presented By: <a href="@Url.RouteUrl("SearchHomes", new { id = Model.Realtor })" class="card-link">@Model.Realtor</a>
+        </div>
+        <div>
+            <strong>Status:</strong> @Model.Status
+            <span class="badge badge-secondary">@Model.DaysOnMarket Days on Market</span>
+        </div>
+    </div>
+    <div class="row my-4">
+        <div class="col-md-6">
+            <img src="@Model.Thumbnail.AbsoluteUri" class="img-fluid img-thumbnail rounded mx-auto d-block w-100" alt="@Model.Address">
+        </div>
+        <div class="col-md-6">
+            <p class="lead">
+                @Model.Description
+            </p>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-header d-flex justify-content-around">
+            <div>
+                Square Feet: <strong>@Model.SquareFeet</strong>
+            </div>
+            <div>
+                Bedrooms: <strong>@Model.BedroomCount</strong>
+            </div>
+            <div>
+                Bathrooms: <strong>@Model.BathroomCount</strong>
+            </div>
+        </div>
+    </div>
+</main>
