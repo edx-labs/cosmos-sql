@@ -30,6 +30,10 @@ namespace RealEstateCatalog.Services
 
         public async Task<IList<Home>> GetHomesAsync()
         {
+            DocumentClient client = new DocumentClient(new Uri(CosmosSettings.EndpointUrl), CosmosSettings.AuthorizationKey);
+            Database database = await client.CreateDatabaseIfNotExistsAsync(new Database { Id = CosmosSettings.DatabaseId });
+            DocumentCollection collection = await client.CreateDocumentCollectionIfNotExistsAsync(database.SelfLink, new DocumentCollection { Id = CosmosSettings.ContainerId }, new RequestOptions { OfferThroughput = 400 });
+            
             List<Home> homes = new List<Home>();
 
             string continuationToken = String.Empty;            
